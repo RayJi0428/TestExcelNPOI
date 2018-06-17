@@ -1,0 +1,38 @@
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.exe.config
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csprojResolveAssemblyReference.cache
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Form1.resources
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Properties.Resources.resources
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.GenerateResource.Cache
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.exe
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.pdb
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.dll
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OOXML.dll
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OpenXml4Net.dll
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OpenXmlFormats.dll
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.xml
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.exe
+c:\users\rayji\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.pdb
+C:\Users\RayJi\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\ClosedXML.dll
+C:\Users\RayJi\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\RayJi\documents\visual studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\bin\Debug\ClosedXML.pdb
+C:\Users\RayJi\Documents\Visual Studio 2015\Projects\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.CoreCompileInputs.cache
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.exe.config
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.exe
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\TestExcelNPOI.pdb
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\DocumentFormat.OpenXml.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\ClosedXML.pdb
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\NPOI.xml
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csprojResolveAssemblyReference.cache
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Form1.resources
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Properties.Resources.resources
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.GenerateResource.Cache
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.CoreCompileInputs.cache
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.exe
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.pdb
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\DocumentFormat.OpenXml.xml
