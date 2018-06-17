@@ -32,7 +32,6 @@ D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.cspro
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Form1.resources
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.Properties.Resources.resources
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.GenerateResource.Cache
-D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.CoreCompileInputs.cache
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.exe
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.pdb
-D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\DocumentFormat.OpenXml.xml
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\ClosedXML.dll

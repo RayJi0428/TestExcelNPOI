@@ -22,7 +22,7 @@ namespace TestExcelNPOI
 
         private int nameCell = 2;//姓名所在欄
 
-        private Boolean DEBUG = true;
+        private Boolean DEBUG = false;
         private string INPUT_URL = @"input.xls";
         private string OUTPUT_URL = @"綺綺\#1_#2.xls";
         public Form1()
