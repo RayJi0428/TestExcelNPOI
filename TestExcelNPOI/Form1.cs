@@ -136,8 +136,6 @@ namespace TestExcelNPOI
                         //oDataCell.CellStyle.WrapText = true;
                     }
 
-                    outputSheet.AutoSizeColumn(9);
-
                     //output不可外流，放在GitHub外層
                     string fileName = OUTPUT_URL;
                     fileName = fileName.Replace("#1", apartment);
@@ -170,7 +168,7 @@ namespace TestExcelNPOI
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            this.nameCell = Int32.Parse(textBox2.Text);
         }
 
         private  void backup()

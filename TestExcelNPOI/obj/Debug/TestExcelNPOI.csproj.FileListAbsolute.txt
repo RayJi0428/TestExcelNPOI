@@ -35,3 +35,4 @@ D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.cspro
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.exe
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.pdb
 D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\bin\Debug\ClosedXML.dll
+D:\GitHub\薪資拆分\TestExcelNPOI\TestExcelNPOI\obj\Debug\TestExcelNPOI.csproj.CoreCompileInputs.cache
