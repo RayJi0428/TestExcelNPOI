@@ -100,6 +100,9 @@ namespace TestExcelNPOI
                     {
                         ICell inDataCell = iCurRow.GetCell(ci);
 
+                        if (inDataCell == null)
+                            continue;
+
                         //取得名字
                         if (ci == this.nameCell)
                         {
@@ -111,7 +114,7 @@ namespace TestExcelNPOI
                         }
 
                         ICell oDataCell = oDataRow.CreateCell(ci);
-
+                 
                         //到職日特別處理
                         if (ci == 0)
                         {
