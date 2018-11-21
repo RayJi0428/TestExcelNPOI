@@ -81,7 +81,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(75, 22);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "2";
+            this.textBox2.Text = "3";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 

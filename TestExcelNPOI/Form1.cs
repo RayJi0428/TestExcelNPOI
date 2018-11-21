@@ -20,27 +20,47 @@ namespace TestExcelNPOI
     {
         private int keepRow = 2;//保留列數
 
-        private int nameCell = 2;//姓名所在欄
+        private int nameCell = 2;//姓名所在欄(1 base)
 
         private Boolean DEBUG = false;
+        private string CONFIG_URL = @"config.xls";
         private string INPUT_URL = @"input.xls";
         private string OUTPUT_URL = @"綺綺\#1_#2.xls";
-        public Form1()
-        {
-            InitializeComponent();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
+        private Config config;
+
+        public Form1()
         {
             if (DEBUG)
             {
                 this.INPUT_URL = "../../../../" + this.INPUT_URL;
                 this.OUTPUT_URL = "../../../../" + this.OUTPUT_URL;
+                this.CONFIG_URL = "../../../../" + this.CONFIG_URL;
             }
+
+            InitializeComponent();
+
+            this.config = new Config(this.CONFIG_URL);
+        }
+
+
+        /**
+         * button handler
+        **/
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.execute();
+        }
+
+
+        private void execute()
+        {
             try
             {
                 HSSFWorkbook inputBook = new HSSFWorkbook(new FileStream(INPUT_URL, FileMode.Open));//input不可外流，放在GitHub外層
                 HSSFSheet inputSheet = (HSSFSheet)inputBook.GetSheetAt(0);//目前只取第一分頁sheet0
+
+                //提早取得名稱
 
                 //取得資料
                 int iNumRow = inputSheet.LastRowNum;
@@ -108,13 +128,19 @@ namespace TestExcelNPOI
                         {
                             name = inDataCell.StringCellValue;
                         }
+                        //取得部門
                         if (ci == this.nameCell + 1)
                         {
                             apartment = inDataCell.StringCellValue;
                         }
-
+                        
                         ICell oDataCell = oDataRow.CreateCell(ci);
-                 
+
+                        if (this.config.needToSkipCol(name, ci + 1))
+                        {
+                            outputSheet.SetColumnHidden(ci, true);
+                        }
+
                         //到職日特別處理
                         if (ci == 0)
                         {
@@ -139,6 +165,31 @@ namespace TestExcelNPOI
                         //oDataCell.CellStyle.WrapText = true;
                     }
 
+                    //刪除-------------------------------------------------------------------
+                    
+                    for (int ri = 0; ri <= outputSheet.LastRowNum; ++ri)
+                    {
+                        HSSFRow eachRow = (HSSFRow)outputSheet.GetRow(ri);//取得第N列資料
+
+                        titleCellCount = eachRow.LastCellNum;
+                        for (ci = titleCellCount-1; ci >-1; --ci)
+                        {
+                            if (this.config.needToSkipCol(name, ci+1))
+                            {
+                                ICell eachCell = eachRow.GetCell(ci);
+                                if (eachCell == null)
+                                {
+                                    eachCell = eachRow.CreateCell(ci);
+                                    
+                                }
+
+                                eachRow.RemoveCell(eachCell);
+                                
+                                
+                            }
+                        }                            
+                    }                    
+
                     //output不可外流，放在GitHub外層
                     string fileName = OUTPUT_URL;
                     fileName = fileName.Replace("#1", apartment);
@@ -152,6 +203,7 @@ namespace TestExcelNPOI
                 }
 
                 MessageBox.Show("薪資拆分成功!");
+                System.Windows.Forms.Application.Exit();//自動關閉APP
             }
             catch (Exception error)
             {
@@ -171,7 +223,7 @@ namespace TestExcelNPOI
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            this.nameCell = Int32.Parse(textBox2.Text);
+            this.nameCell = Int32.Parse(textBox2.Text) - 1;
         }
 
         private  void backup()
